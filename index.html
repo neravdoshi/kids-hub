@@ -1,78 +1,90 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.1">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="UTF-8">
+  <title>Kid-Friendly Learning Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Fredoka', sans-serif;
+      background-color: #fce4ec; /* Light pink background */
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      color: #e74c3c; /* Bright red */
+      font-size: 3em;
+      text-shadow: 2px 2px #f9c240; /* Yellow shadow */
+      margin-bottom: 0.5em;
+    }
+    p {
+      color: #34495e;
+      font-size: 1.2em;
+      margin-top: 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 900px;
+    }
+    li {
+      background-color: #ffffff;
+      border: 3px solid #ff7f50; /* Coral border */
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s, box-shadow 0.2s;
+      width: 250px;
+    }
+    li:hover {
+      transform: translateY(-5px);
+      box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.2);
+    }
+    a {
+      text-decoration: none;
+      color: #2980b9; /* A friendly blue */
+      font-size: 1.5em;
+      font-weight: bold;
+      display: block;
+    }
+    a:hover {
+      color: #e74c3c; /* Bright red on hover */
+    }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Kid-Friendly Learning Hub&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background-color: #f0f8ff;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>h1 {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #2c3e50;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>ul {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>list-style-type: none;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 0;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>li {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 10px 0;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>a {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #2980b9;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 18px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>a:hover {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #e74c3c;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Welcome to Your Learning Hub!&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Click on a site below to start exploring:&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.abcya.com"&gt;ABCya!&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.amnh.org"&gt;American Museum of Natural History&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.apple.com"&gt;Apple — Start&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.bbc.co.uk/cbeebies"&gt;CBeebies (BBC)&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.cnn.com/cnn10"&gt;CNN10&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.coolmath4kids.com"&gt;Coolmath4kids&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.disney.com"&gt;Disney&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.howstuffworks.com"&gt;HowStuffWorks&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.icae.org"&gt;ICAE&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.khanacademy.org"&gt;Khan Academy&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.nasa.gov/kidsclub"&gt;NASA Kids Club&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://kids.nationalgeographic.com"&gt;National Geographic Kids&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://pbskids.org"&gt;PBS Kids&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.scholastic.com"&gt;Scholastic&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.sciencebob.com"&gt;Science Bob&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.shape-trace.com"&gt;Shape Trace One&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.si.edu"&gt;Smithsonian Institution&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.splashlearn.com"&gt;SplashLearn&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;li&gt;&lt;a href="https://www.timeforkids.com/"&gt;Time for kids&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/ul&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
+  <h1>Welcome to Your Learning Hub!</h1>
+  <p>Click on a site below to start exploring:</p>
+  <ul>
+    <li><a href="https://www.abcya.com">ABCya!</a></li>
+    <li><a href="https://www.amnh.org">American Museum of Natural History</a></li>
+    <li><a href="https://www.apple.com">Apple — Start</a></li>
+    <li><a href="https://www.bbc.co.uk/cbeebies">CBeebies (BBC)</a></li>
+    <li><a href="https://www.cnn.com/cnn10">CNN10</a></li>
+    <li><a href="https://www.coolmath4kids.com">Coolmath4kids</a></li>
+    <li><a href="https://www.disney.com">Disney</a></li>
+    <li><a href="https://www.howstuffworks.com">HowStuffWorks</a></li>
+    <li><a href="https://www.icae.org">ICAE</a></li>
+    <li><a href="https://www.khanacademy.org">Khan Academy</a></li>
+    <li><a href="https://www.nasa.gov/kidsclub">NASA Kids Club</a></li>
+    <li><a href="https://kids.nationalgeographic.com">National Geographic Kids</a></li>
+    <li><a href="https://pbskids.org">PBS Kids</a></li>
+    <li><a href="https://www.scholastic.com">Scholastic</a></li>
+    <li><a href="https://www.sciencebob.com">Science Bob</a></li>
+    <li><a href="https://www.shape-trace.com">Shape Trace One</a></li>
+    <li><a href="https://www.si.edu">Smithsonian Institution</a></li>
+    <li><a href="https://www.splashlearn.com">SplashLearn</a></li>
+    <li><a href="https://www.timeforkids.com/">Time for kids</a></li>
+  </ul>
 </body>
 </html>
+
